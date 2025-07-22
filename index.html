@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang=""en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Daily War Room Logger</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🛡️ War Room Logger </h1>
+        <form id="loggerForm">
+            <label>🎯 Top Priority</label>
+            <textarea id="priority" rows="2" placeholder="What´s your main objective?"></textarea>
+
+                <label> ⚔️ Biggest Challenge</label>
+                <textarea id="challenge" rows="2" placeholder="What´s pushing back hardest?"></textarea>
+
+                <label>🧠 Key Insight </label>
+                <textarea id="insight" rows="2" place holder="What did you learn or realize?"></textarea>
+
+                <label>❤️ Who I Served Today </label>
+                <textarea id="served" rows="2" placeholder="Who did you impact or care for?"></textarea>
+
+                <button type="submit"> Add Note </button>
+            </form>
+            <div id="entries Container">
+                <h2> 📜 Log History </h2>
+                <ul id="entryList"></ul>
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
