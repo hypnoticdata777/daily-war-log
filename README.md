@@ -2,6 +2,11 @@
 
 A lightweight offline journaling app designed for daily reflection and discipline.
 
+## Live Demo
+[Launch the app](https://hypnoticdata777.github.io/daily-war-log/)
+
+> To make this link work, enable **GitHub Pages** in your repo settings and set the source to the `main` branch.
+
 ## Features
 - Write your top priority, biggest challenge, key insight, and who you served
 - Auto-saves each entry with timestamp
